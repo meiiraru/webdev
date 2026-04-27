@@ -1,0 +1,246 @@
+/* Resetando presets do browser */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #FAFAFA;
+}
+
+/* CONTAINERS */
+#main-container {
+    display: flex;
+    margin-top: 30px;
+}
+
+#banner-container,
+#form-container {
+    flex: 1 1 0;
+    width: 50%;
+}
+
+#banner-container {
+    text-align: right; /* Alinha a imagem à direita */
+}
+
+#banner-container img {
+    width: 100%;
+    margin-right: 15px;
+    margin-top: 25px;
+    max-width: 380px;
+}
+
+#form-container {
+    text-align: center;
+}
+
+/* LOGIN FORM */
+#form-box {
+    background-color: #FFFFFF;
+    border: 1px solid #DBDBDB;
+    width: 350px;
+    margin-top: 30px;
+}
+
+#logo-insta {
+    width: 175px;
+    height: 51px;
+    margin: 30px auto 12px;  /* Top: 30 | Left & Right: auto | Bot: 12 */
+}
+
+#login-form {
+    margin-top: 20px;
+}
+
+#login-form input {
+    display: block;
+    font-size: 12px;
+    padding: 12px 9px;
+    background-color: #FAFAFA;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+    width: 268px;
+    margin: 5px auto;
+}
+
+#login-form input[type="submit"] {
+    background-color: #B2DFFC;
+    color: #FFFFFF;
+    margin-top: 15px;
+    border-radius: 5px;
+    height: 30px;
+    font-size: 13px;
+    padding: 0;
+    font-weight: bold;
+}
+
+.separator {
+    position: relative;
+}
+
+.line {
+    border-top: 1px solid #DBDBDB;
+    width: 268px;
+    margin: 25px auto 35px;
+}
+
+.separator span {
+    position: absolute;
+    text-transform: uppercase;
+    color: #BBBBBB;
+    background-color: #FFFFFF;
+    height: 30px;
+    width: 40px;
+    top: -6px;
+    margin-left: -20px;
+    font-size: 15px;
+}
+
+#facebook-login {
+    margin-bottom: 25px;
+}
+
+#facebook-login a {
+    text-decoration: none;
+    color: #385185;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#facebook-login img {
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+}
+
+#facebook-login span {
+    font-weight: bold;
+    font-size: 13px;
+    margin-top: 1px;
+}
+
+/* ESQUECEU A SENHA */
+
+#forgot-pass {
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+
+#forgot-pass a {
+    text-decoration: none;
+    color: #373799;
+}
+
+/* REGISTER-CONTAINER */
+
+#register-container {
+    background-color: #FFFFFF;
+    border: 1px solid #DBDBDB;
+    width: 350px;
+    margin-top: 30px;
+    padding: 25px;
+}
+
+#register-container p {
+    font-size: 14px;
+    color: #262626;
+}
+
+#register-container a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #4A95F6;
+}
+
+/* GET-APP CONTAINER */
+
+#get-app-container {
+    text-align: center;
+    width: 350px;
+    margin-top: 30px;
+}
+
+#get-app-container p {
+    margin: 20px 0;
+    font-size: 13px;
+    color: #262626;
+}
+
+#get-app-container a {
+    text-decoration: none;
+}
+
+#get-app-container img {
+    width: 136px;
+    height: 40px;
+}
+
+/* Footer */
+footer {
+    text-align: left;
+    width: 1000px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer #footer-links {
+    display: flex;
+    list-style: none;
+}
+
+#footer-links li {
+    margin-right: 10px;
+}
+
+#footer-links a,
+#copyright {
+    text-decoration: none;
+    color: #8E8E8E;
+    font-size: 12px;
+}
+
+#copyright {
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* RESPONSIVE */
+@media (max-width: 450px) {
+	body {
+        background-color: #FFF;
+    }
+	
+	#banner-container {
+        display: none; /* Não há imagem do celular, só o form */
+    }
+    
+    #main-container,
+    #form-box {
+        margin-top: 0;
+    }
+    
+    #form-container,
+    #form-box,
+    #register-container,
+    #get-app-container {
+        width: 100%;
+        border: none;
+    }
+
+    footer {
+        width: 90%;
+    }
+
+    #footer-links {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+}

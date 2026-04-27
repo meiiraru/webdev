@@ -1,0 +1,23 @@
+body {
+    background-color: #202020;
+}
+
+h1 {
+    color: red;
+}
+
+@media screen and (max-width: 500px) {
+    h1 {
+        color: aqua;
+    }
+}
+
+p {
+    color: #AD72FF;
+}
+
+@media screen and (min-width: 500px) {
+    p {
+        color: orange;
+    }
+}

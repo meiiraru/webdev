@@ -1,0 +1,260 @@
+body {
+    background-color: #0F0F0F;
+    font-family: Arial, sans-serif;
+    color: azure;
+}
+
+#index3_titulo {
+    color: #72FFAD;
+}
+
+.paragrafo {
+    border: 1px solid #72FFAD;
+    font-style: normal;
+    padding: 5px;
+}
+
+#titulo_exclusivo {
+    color: #000;
+    font-size: 24px;
+    background: #AD72FF;
+}
+
+h2 {
+    border-bottom: 2px solid #FF7272;
+}
+
+.title {
+    border-bottom: 2px solid #72FFAD;
+}
+
+#another-title {
+    border-bottom: 2px solid;
+}
+
+.bg-img {
+    text-shadow: #000 3px 3px 5px;
+    border: none;
+    background-image: url("../img/ponte.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.not-centered-bg,
+.centered-bg {
+    width: 200px;
+    height: 200px;
+    background-image: url("../img/ponte.jpg");
+}
+
+.centered-bg {
+    background-position: center;
+    background-size: cover;
+}
+
+.height-width {
+    width: 200px;
+    height: 100px;
+    background-color: #323232;
+}
+
+.height-width2 {
+    height: 100px;
+    background-color: #7F7F7F;
+}
+
+.no-padding {
+    background-color: #72ADFF;
+    color: #0F0F0F;
+}
+
+.with-padding {
+    padding: 20px;
+    background-color: #323232;
+    color: #72ADFF;
+}
+
+.with-padding2 {
+    background-color: #72ADFF;
+    color: #0F0F0F;
+    /*(top - right - bottom - left)*/
+    padding: 5px 3px 5px 3px;
+}
+
+.no-border-box {
+    background-color: #AD72FF;
+    color: #0F0F0F;
+    width: 200px;
+    padding: 20px;
+}
+
+.with-border-box {
+    background-color: #323232;
+    color: #AD72FF;
+    width: 200px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.border-1 {
+    border: 3px solid #72FFAD;
+}
+
+.border-2 {
+    border: 5px dotted #72ADFF;
+}
+
+.border-3 {
+    border-left: 5px solid #AD72FF;
+}
+
+.border-4 {
+    border-bottom: 10px double #FF72AD;
+}
+
+.border-5 {
+    padding: 5px;
+    border: 5px solid #FF7272;
+    border-radius: 15px;
+}
+
+.margin-1 {
+    background-color: #7F7F7F;
+    margin: 10px;
+    color: #0F0F0F;
+}
+
+.margin-2 {
+    background-color: #7F7F7F;
+    margin-top: 20px;
+    padding: 5px;
+    color: #0F0F0F;
+}
+
+.margin-3 {
+    background-color: #7F7F7F;
+    /*(top - right - bottom - left)*/
+    margin: 5px 10px 15px 20px;
+    padding: 5px;
+    color: #0F0F0F;
+}
+
+.box-model {
+    margin: 20px;
+    padding: 15px 25px;
+    border: 5px dashed #FF72AD;
+    border-radius: 7px;
+    width: 200px;
+    height: 100px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.text-decoration {
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+
+.font-size {
+    font-size: 36px;
+}
+
+.font-weight {
+    font-weight: bold;
+}
+
+.text-align {
+    text-align: center;
+}
+
+.inline-box {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: #72ADFF;
+    color: #0F0F0F;
+    text-align: center;
+    line-height: 50px;
+}
+
+.hidden {
+    display: none;
+}
+
+.pos-static {
+    position: static;
+}
+
+.pos-relative {
+    position: relative;
+    top: 25px;
+    left: 20px;
+    background-color: #AD72FF;
+    width: 200px;
+    height: 20px;
+    text-align: center;
+}
+
+.absolute-container {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background-color: #323232;
+    outline: 2px dotted white;
+}
+
+.pos-absolute {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: #72ADFF;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+}
+
+.hud {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background-color: #FF72AD;
+    bottom: 10px;
+    right: 10px;
+}
+
+.pos-sticky {
+    position: sticky;
+    width: 50px;
+    height: 50px;
+    background-color: #AD72FF;
+    top: 10px;
+    left: 10px;
+}
+
+.z1, .z2, .z3 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+}
+
+.z1 {
+    background-color: #72ADFF;
+    z-index: 3;
+    top: 10px;
+    left: 10px;
+}
+
+.z2 {
+    background-color: #AD72FF;
+    z-index: 2;
+    top: 40px;
+    left: 40px;
+}
+
+.z3 {
+    background-color: #FF72AD;
+    z-index: 1;
+    top: 70px;
+    left: 70px;
+}

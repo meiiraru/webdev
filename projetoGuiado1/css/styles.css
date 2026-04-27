@@ -1,0 +1,102 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #DDDDDD;
+}
+
+.container {
+    max-width: 1100px;
+    background-color: #FFFFFF;
+    padding: 20px 50px;
+
+    position: relative;
+    margin: 50px auto;
+
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px 1px #888888;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.header {
+    text-align: center;
+}
+
+.main-title {
+    font-size: 50px;
+    text-shadow: 2px 2px 2px darkgrey;
+}
+
+.main-paragraph {
+    font-style: italic;
+}
+
+.featured-image {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.large-img {
+    border-radius: 10px;
+}
+
+.biography-container {
+    padding: 25px 0;
+    margin: 25px 0;
+    border-top: 1px dashed #DDDDDD;
+    border-bottom: 1px dashed #DDDDDD;
+}
+
+.quotes-container {
+    border-radius: 10px;
+    background-color: #DDDDDD;
+    padding: 30px;
+}
+
+.quotes-container blockquote {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+
+.quotes-container p {
+    font-style: italic;
+    text-align: center;
+}
+
+.members-container li {
+    height: 30px;
+}
+
+figcaption {
+    text-align: center;
+    margin-top: 8px;
+}
+
+.media-container {
+    padding: 25px 0;
+    margin: 25px 0;
+    border-top: 1px dashed #DDDDDD;
+    border-bottom: 1px dashed #DDDDDD;
+    text-align: center;
+}
+
+.media-container img {
+    height: 50px;
+    margin-right: 20px;
+}
+
+.media-container a {
+    text-decoration: none;
+}
+
+.media-images {
+    position: relative;
+    margin: 0 auto;
+}
+
+.footer p {
+    font-size: 10px;
+    text-align: center;
+}

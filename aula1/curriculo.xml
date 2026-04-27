@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<curriculo>
+  <nome>Meiiraru Akitsuki</nome>
+  <idade>27</idade>
+  <curso_atual>
+    <curso>
+      <nome>Jogos Digitais</nome>
+      <local>Unisinos</local>
+    </curso>
+  </curso_atual>
+  <idiomas>
+    <idioma>
+      <nome>Português</nome>
+      <proeficiencia>nativa</proeficiencia>
+    </idioma>
+    <idioma>
+      <nome>Inglês</nome>
+      <proeficiencia>fluente</proeficiencia>
+    </idioma>
+    <idioma>
+      <nome>Japonês</nome>
+      <proeficiencia>básica</proeficiencia>
+    </idioma>
+  </idiomas>
+  <cursos_adicionais>
+    <curso>
+      <nome>Análise e Desenvolvimento de Sistemas</nome>
+      <local>Unisinos</local>
+      <ano>2016</ano>
+      <conclusao/>
+    </curso>
+    <curso>
+      <nome>Ciência da Computação</nome>
+      <local>UNESP - Bauru</local>
+      <ano>2018</ano>
+      <conclusao/>
+    </curso>
+  </cursos_adicionais>
+</curriculo>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<receituario>
+  <clinica>
+    <logo img="./logo_da_clinica.png"/>
+    <nome>Clínica Baby</nome>
+    <departamento>Pediatria</departamento>
+  </clinica>
+  <receita>
+    <paciente>
+      <nome>Ana Maria Marina</nome>
+      <idade>7</idade>
+    </paciente>
+    <remedios>
+      <remedio uso="interno">
+        <nome>Xarope SemTosse</nome>
+        <aplicacao>
+          <quantidade>1 colher</quantidade>
+          <frequencia_dia>3</frequencia_dia>
+        </aplicacao>
+      </remedio>
+      <remedio uso="externo">
+        <nome>Gyellow</nome>
+        <aplicacao>
+          <local>braço</local>
+          <frequencia_dia>1</frequencia_dia>
+          <periodo>ao deitar</periodo>
+        </aplicacao>
+      </remedio>
+    </remedios>
+  </receita>
+</receituario>

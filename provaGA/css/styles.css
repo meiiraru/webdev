@@ -1,0 +1,203 @@
+/* Resetando presets do browser */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #FAFAFA;
+}
+
+/* CONTAINERS */
+#main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    gap: 16px;
+}
+
+#banner-container img {
+    max-height: 550px;
+}
+
+#form-container {
+    display: flex;
+    flex-direction: column;
+    width: 338px;
+    height: 100%;
+}
+
+/* LOGIN */
+#form-box,
+#register-container {
+    background-color: #FFFFFF;
+    border: 1px solid #DBDBDB;
+}
+
+#form-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 35px;
+}
+
+#form-logo {
+    width: 180px;
+    margin-bottom: 30px;
+}
+
+/* LOGIN */
+#login-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#login-container input {
+    font-size: 12px;
+    background-color: #FAFAFA;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+    width: 268px;
+
+    padding: 12px;
+    margin-bottom: 5px;
+}
+
+#login-btn {
+    background-color: #B2DFFC;
+    color: #FFF;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: bold;
+
+    padding: 5px;
+    margin-top: 10px;
+    border: 1px solid #DBDBDB;
+}
+
+/* LOGIN DIVIDER */
+.separator {
+    border-top: 1px solid #DBDBDB;
+    width: 110px;
+    height: 5px;
+}
+
+#login-separator {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0;
+    color: #C4C4C4;
+}
+
+/* FACEBOOK LOGIN */
+#facebook-login {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+#facebook-login a {
+    text-decoration: none;
+    color: #3C5A99;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+#facebook-login img {
+    height: 16px;
+}
+
+#reset-password {
+    text-decoration: none;
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+/* REGISTER */
+#register-container {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    font-size: 13px;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+#register-container a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* DOWNLOAD */
+#get-app-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 13px;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+#download-container {
+    display: flex;
+    gap: 5px;
+}
+
+#download-container img {
+    height: 40px;
+    width: 140px;
+}
+
+/* FOOTER */
+footer {
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+#footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0 8px;
+}
+
+#footer-links a,
+#copyright {
+    color: #8E8E8E;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+#footer-links li {
+    list-style: none;
+}
+
+/* RESPONSIVE */
+@media (max-width: 450px) {
+	body {
+        background-color: #FFF;
+    }
+
+	#banner-container {
+        display: none; /* Não há imagem do celular, só o form */
+    }
+
+    #form-box,
+    #register-container {
+        background-color: unset;
+        border: unset;
+    }
+
+    footer {
+        gap: 18px;
+    }
+}

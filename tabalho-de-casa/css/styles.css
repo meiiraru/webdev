@@ -1,0 +1,191 @@
+/* reset css */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* main body color */
+
+body {
+    background-color: #FFFFFF;
+    font-family: Georgia, Times, serif;
+}
+
+/* global settings */
+
+a {
+    text-decoration: none;
+    color: #444444;
+}
+
+/* header */
+
+.nav-bar {
+    background-color: #FFFFFF;
+    border-bottom: 2px solid #DDDDDD;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 230px;
+}
+
+.nav-bar h1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.nav-bar ul {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-bar li {
+    list-style: none;
+    font-size: 19px;
+}
+
+/* main content */
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.posts-section {
+    margin: 38px 50px 35px 230px;
+    max-width: 975px;
+}
+
+.post {
+    margin-bottom: 45px;
+}
+
+.post img {
+    width: 100%;
+}
+
+.post-title {
+    color: #444444;
+    font-weight: bold;
+    font-size: 38px;
+    margin: 18px 0;
+}
+
+.post p {
+    font-size: 19px;
+}
+
+.post-author {
+    color: #333333;
+    font-weight: bold;
+    font-size: 13px;
+    margin: 20px 0;
+}
+
+.post a {
+    font-size: 20px;
+}
+
+/* side panels */
+
+.side-panel {
+    margin-top: 38px;
+    padding-right: 230px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.side-container {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    margin-bottom: 20px;
+    border: 1px solid #DDDDDD;
+}
+
+.side-container h2 {
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.side-container li {
+    list-style: none;
+}
+
+.side-container button, .side-container input {
+    font-family: Georgia, Times, serif;
+}
+
+.search-bar {
+    display: flex;
+}
+
+.search-bar input {
+    font-size: 16px;
+    border: 1px solid #DDDDDD;
+    padding: 10px 20px;
+    width: 100%;
+}
+
+.search-bar button {
+    background-color: #37A1F7;
+    color: #FFFFFF;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.categories-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 19px;
+    margin-bottom: 20px;
+}
+
+.tags-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.tags-list button {
+    background-color: #DDDDDD;
+    color: #444444;
+    font-size: 19px;
+    padding: 15px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* footer */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-color: #FFFFFF;
+    border-top: 2px solid #DDDDDD;
+    padding: 50px 0 68px 0;
+}
+
+footer h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+footer h3 {
+    font-size: 19px;
+    font-weight: normal;
+}
+
+footer p {
+    font-size: 19px;
+}
