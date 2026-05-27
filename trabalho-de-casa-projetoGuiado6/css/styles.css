@@ -16,19 +16,20 @@ body {
     text-align: center;
 }
 
-h5 {
-    margin-bottom: 20px;
-    color: #666666;
-}
-
-button {
-    padding: 12px 20px;
+button, a {
+    padding: 12px 0;
     border: none;
     border-radius: 8px;
     background-color: #007BFF;
     color: white;
     font-size: 16px;
     cursor: pointer;
+    width: 50%;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
 }
 
 button:hover {
@@ -41,6 +42,10 @@ input[type="file"] {
 
 .actions {
     margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .remove-btn {
@@ -49,4 +54,13 @@ input[type="file"] {
 
 .remove-btn:hover {
     background: #A71D2A;
+}
+
+.gallery-btn {
+    background-color: #28A745;
+    display: none;
+}
+
+.gallery-btn:hover {
+    background: #1E7E34;
 }
