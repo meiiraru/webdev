@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wiki da Vida Selvagem</title>
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+
+<!--the header-->
+<header>
+  <!--title-->
+  <div class="header-title">
+    <h1>Wiki da Vida Selvagem</h1>
+    <p>Desenvolvido com a <a href="https://api-ninjas.com/api/animals" target="_blank">Animals API</a></p>
+  </div>
+
+  <!--api button-->
+  <div class="api-key-container tooltip">
+    <button id="api-key-btn" class="icon-btn">
+      <img src="./img/key_icon.png" alt="Ícone de chave">
+    </button>
+    <span class="tooltip-text tooltip-left">Configurar chave API</span>
+  </div>
+
+  <!--search container-->
+  <div class="search-container">
+    <form id="search-form" role="search">
+      <!--search bar-->
+      <label for="search-input" hidden>Pesquisar animais</label>
+      <input id="search-input" type="text" placeholder="Pesquisar animal..." autocomplete="off">
+
+      <!--search button-->
+      <div class="tooltip">
+        <button type="submit" id="search-btn" class="icon-btn">
+          <img src="./img/right_arrow.png" alt="Ícone de seta para direita">
+        </button>
+        <span class="tooltip-text tooltip-right">Pesquisar</span>
+      </div>
+    </form>
+  </div>
+</header>
+
+<!--main content-->
+<main>
+  <!--status message-->
+  <div class="status-container" id="status-container" hidden>
+    <p id="status-message"></p>
+  </div>
+
+  <!--loader-->
+  <div class="loader" id="loader" hidden>
+    <div class="spinner"></div>
+    <p>Buscando informações</p>
+  </div>
+
+  <!--page container-->
+  <div class="page-container">
+    <!--results section-->
+    <section>
+      <div class="results-container" id="results-container"></div>
+    </section>
+
+    <!--favorites side panel-->
+    <aside class="favorites-container">
+      <p class="favorites-container-title">Animais Favoritos</p>
+      <div id="favorites-list" class="favorites-list"></div>
+    </aside>
+  </div>
+</main>
+
+<!--modal-->
+<div class="modal-overlay" id="modal-overlay" hidden>
+  <div class="modal-border">
+    <!--alert/message modal-->
+    <div class="modal" id="message-modal" hidden>
+      <p id="message-content"></p>
+    </div>
+
+    <!--api key modal-->
+    <div class="modal" id="api-key-modal" hidden>
+      <form id="api-key-form" role="form">
+        <label for="api-key-input" hidden>Chave API</label>
+        <input id="api-key-input" type="password" placeholder="Chave API" autocomplete="off">
+      </form>
+    </div>
+
+    <!--animals modal-->
+    <div class="modal" id="animals-modal" hidden></div>
+  </div>
+</div>
+
+<footer>
+  <p>Copyright &copy; 2026 - UNISINOS - Meiiraru Akitsuki</p>
+</footer>
+
+</body>
+<script src="./js/scripts.js"></script>
+</html>
